@@ -18,7 +18,7 @@ namespace ModeloDB
         override protected void OnConfiguring(DbContextOptionsBuilder opciones)
         {
             //conexion con sql server
-            opciones.UseSqlServer("Server=DESKTOP-EF56O4A; initial catalog=IGU; trusted_connection=true;");
+            opciones.UseSqlServer("Server=DESKTOP-EF56O4A; initial catalog=PRU; trusted_connection=true;");
 
         }
 
